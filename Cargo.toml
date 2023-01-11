@@ -1,0 +1,18 @@
+[package]
+name = "with-thread-local"
+version = "1.0.0"
+authors = ["Cecile Tonglet <cecile.tonglet@cecton.com>"]
+license = "MIT OR Apache-2.0"
+edition = "2018"
+description = "A micro crate that simplifies a bit the use of the std macro `thread_local!`"
+repository = "https://github.com/cecton/with-thread-local"
+homepage = "https://github.com/cecton/with-thread-local"
+documentation = "https://docs.rs/with-thread-local"
+readme = "README.md"
+keywords = ["thread", "global", "local", "variable"]
+categories = ["rust-patterns"]
+
+[dependencies]
+
+[dev-dependencies]
+regex = "1"
